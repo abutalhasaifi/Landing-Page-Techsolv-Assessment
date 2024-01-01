@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #091838;
+    padding: 0 8vw;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 2.5vw;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: white;
+}
+a:hover{
+    color: #10A1E8;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+#search{
+    width: 1.7vw;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #041334;
+}
+.inside{
+    margin: 7vh 0;
+    width: 80%;
+}
+#imgicon{
+    width: 2vw;
+}
+.imgtop{
+    border-radius: 50%;
+    width: 2vw;
+}
+table,th,td{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1vh 1vw;
+
+}
+table{
+    width: 100%;
+    margin: 3vh 0;
+}
+#btn1{
+    font-size: 1.6vw;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    color: white;
+    background-color: #10A1E8;
+    cursor: pointer;
+}
+#btn1:hover{
+    color: black;
+}
+#head2, #head3{
+    text-align: left;
+    padding: 1vh 0;
+}
+.part2{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+    padding: 5vh 5vw;
+    background-color: #00092A;
+    color: white;
+}
+.part3{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+    padding: 5vh 5vw;
+    background-color: #041334;
+    color: white;
+}
+.left{
+    width: 50%;
+}
+.right{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   padding: 1vh 1.5vw;
+   gap: 2vh;
+}
+#imglocation{
+    width: 100%;
+    height: 60vh;
+    /* height: 60%; */
+}
+.div2-1{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+}
+#communityimg{
+    width: 6vw;
+    border-radius: 50%;
+}
+#tickimg{
+    width: 5vw;
+    border-radius: 50%;
+}
+.left2{
+    width: 50%;
+    display: flex;
+    gap: 3vh;
+    flex-direction: column;
+}
+.right2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 70%;
+    border: 1px solid black;
+    background-color: #07173C;
+    border-radius: 10px;
+    padding: 1vh 1.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    box-shadow: 0 0 3px 5px white;
+}
+.part3-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bitcoinimg{
+    width: 3vw;
+    border-radius: 50%;
+}
+.inner{
+    display: flex;
+    gap: 2vw;
+}
+
+.part4{
+    width: 100%;
+    padding: 4vh 5vw;
+    display: flex;
+    gap: 4vw;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #00092A;
+}
+.div1{
+    width: 50%;
+}
+.div2nd{
+    display: flex;
+    gap: 5vw;
+    width: 50%;
+
+}
+.div2{
+    width: 25%;
+    line-height: 5vh;
+    font-size: 1.4vw;
+}
+#last{
+    background-color: #041334;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logohead{
+    color: #FBC315;
+}
+
+@media (max-width:650px)
+{
+    ul{
+        display: none;
+    }
+    #search{
+        width: 4vw;
+    }
+    #btn1{
+        font-size: 3.5vw;
+    }
+    .part1{
+        font-size: 2.5vw;
+    }
+    #imglocation{
+        width: 100%;
+        height: 40vh;
+        /* height: 60%; */
+    }
+    .part2, .part3{
+        display: flex;
+        flex-direction: column;
+        font-size: 3.5vw;
+    }
+    .part4{
+        display: flex;
+        flex-direction: column;
+    }
+    .left, .right, .left2, .right2, .div1, .div2nd{
+        width: 90%;
+        font-size: 3.5vw;
+    }
+    .div2{
+        width: 25%;
+        line-height: 3vh;
+        font-size: 2vw;
+    }
+
+}
